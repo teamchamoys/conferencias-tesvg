@@ -20,7 +20,7 @@
     public $carrera;
     public $grupo;
 
-    static public function ajaxIngresarDatos(){
+    public function ajaxIngresarDatos(){
 
       $datos = array('nombre' => $this->nombre,
                      'numero_control' => $this->numeroControl,
@@ -74,10 +74,6 @@
                 <hr style="border:1px solid #ccc; width:80%">
 
                 <h4 style="font-weight:100; color:#999; padding:0 20px;"> '.$datos["nombre"].' <strong>Esté es tu codigo QR</strong></h4>
-
-                <a href="http://localhost/tutorias2/" target="_blank" style="text-decoration:none">
-                <div style="line-height:60px; background:#fe4918; width:60%; color:white">Ingresa al Registro</div>
-                </a>
 
                 <br>
                 <hr style="border:1px solid #ccc; width:80%">

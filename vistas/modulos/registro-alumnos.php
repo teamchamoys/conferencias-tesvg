@@ -29,14 +29,15 @@
 							</div>
 							<div class="ferry ferry-from">
   								<label>Carrera</label>
-							    <select required name="carrera" style="color:#fff!important; background-color: transparent!important;">
+							    <select required name="carrera" style="color:black!important; background-color:#fff!important;">
                     <option value="">---</option>
                     <option value="la">L.A.</option>
+                    <option value="otro">Otro</option>
                   </select>
 							</div>
               <div class="ferry ferry-from">
                   <label>Grupo</label>
-                  <select  required style="color:#fff!important;  background-color: transparent!important;" name="grupo">
+                  <select  required style="color:black!important;  background-color: #fff!important;" name="grupo">
                     <option value="">---</option>
                     <option value="101">101</option>
                     <option value="102">102</option>
@@ -67,5 +68,5 @@
 	</div>
 </div>
 <div class="footer">
-	<p> © 2018. Derechos Reservados | Design by  <a href="http://grupoinntec.com/"> Grupo Inntec</a></p>
+	<p> © 2018. Derechos Reservados | Design by  <a href="http://grupoinntec.com/"> Grupo Innec</a></p>
 </div>
