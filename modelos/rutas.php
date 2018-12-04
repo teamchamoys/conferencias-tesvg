@@ -5,9 +5,11 @@
  */
 class Ruta
 {
-
+  /*=============================================>>>>>
+  = MODIFICAR RUTA =
+  ===============================================>>>>>*/
   public function ctrRuta(){
-    return "http://chamoysteam.xyz/conferencias/";
+    return "http://grupoinntec.com/conferencias/";
   }
 
   public function ctrRutaAdmin(){

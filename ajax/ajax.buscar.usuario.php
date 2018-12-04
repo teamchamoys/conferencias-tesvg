@@ -11,7 +11,7 @@
     /*=============================================>>>>>
     = VALIDAR EMAIL EXISTENTE =
     ===============================================>>>>>*/
-    public $validarNumeroControl;
+    static public $validarNumeroControl;
 
     public function ajaxValidarNumeroControl(){
 

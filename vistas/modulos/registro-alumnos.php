@@ -31,9 +31,7 @@
   								<label>Carrera</label>
 							    <select required name="carrera" style="color:#fff!important; background-color: transparent!important;">
                     <option value="">---</option>
-                    <option value="isc">I.S.C.</option>
                     <option value="la">L.A.</option>
-                    <option value="ie">I.E.</option>
                   </select>
 							</div>
               <div class="ferry ferry-from">
@@ -66,5 +64,5 @@
 	</div>
 </div>
 <div class="footer">
-	<p> © 2018. Derechos Reservados | Design by  <a href="http://chamoysteam.com/"> ChamoysTeam</a></p>
+	<p> © 2018. Derechos Reservados | Design by  <a href="http://grupoinntec.com/"> Grupo Inntec</a></p>
 </div>

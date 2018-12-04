@@ -20,7 +20,7 @@
     public $carrera;
     public $grupo;
 
-    public function ajaxIngresarDatos(){
+    static public function ajaxIngresarDatos(){
 
       $datos = array('nombre' => $this->nombre,
                      'numero_control' => $this->numeroControl,
@@ -50,9 +50,9 @@
 
         $mail->isMail();
 
-        $mail->setFrom('chamoysteam@gmail.com', 'ChamoysTem');
+        $mail->setFrom('tesvg2018@gmail.com', 'TESVG');
 
-        $mail->addReplyTo('chamoysteam@gmail.com', 'ChamoysTeam');
+        $mail->addReplyTo('tesvg2018@gmail.com', 'TESVG');
 
         $mail->Subject = "Código QR de la semana del administrador 2018 TESVG";
 
