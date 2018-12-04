@@ -29,6 +29,7 @@
                      'grupo' => $this->grupo,
                      'asisitio' => 1
                    );
+
       $respuesta = ControladorUsuarios::ctrRegistroUsuario($datos);
 
       if ($respuesta == "ok") {

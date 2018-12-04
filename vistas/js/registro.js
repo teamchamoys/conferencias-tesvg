@@ -12,7 +12,7 @@ var validarNumeroControl = false;
 
 var rutaOculta = $("#rutaOculta").val();
 
-$("#numeroControl").change(function(){
+$(document).on("change", "#numeroControl", function(){
   var numeroControl = $("#numeroControl").val();
 
   var datos = new FormData();
@@ -96,7 +96,7 @@ function validateForm() {
 
 
 /* INGRESAR DATOS */
-$("#registro-alumno").on('submit', function(e){
+$(document).on('submit', "#registro-alumno", function(e){
 
   e.preventDefault()
 

@@ -69,7 +69,7 @@ if(isset($_GET["ruta"])){
 ?>
 
 
-<input type="hidden" value="<?php echo $url; ?>" id="rutaOculta">
+<input type="hidden" value="<?php echo $url;?>" id="rutaOculta">
 
 <script src="<?php echo $url; ?>vistas/js/registro.js"></script>
 

@@ -15,19 +15,23 @@
 					</div>
 						<div class="agileinfo-row">
               <input type="hidden" id="alerta" name="" value="">
+
               <div class="ferry ferry-from">
 								<label>Número de Control</label>
-								<input type="text" maxlength="10" id="numeroControl" required name="numeroControl" placeholder="201992980" >
+								<input type="text" maxlength="10" id="numeroControl" required name="numeroControl" placeholder="201992980">
 							</div>
-							<div class="ferry ferry-from">
+
+              <div class="ferry ferry-from">
 								<label>Nombre Completo</label>
 								<input type="text" name="nombre" id="nombre" required placeholder="Juan de la Barrera Mendez Ayala" >
 							</div>
-							<div class="ferry ferry-from">
+
+              <div class="ferry ferry-from">
 								<label>E-mail</label>
 								<input type="email" name="email" id="email" required placeholder="juanito@tesvg.com" >
 							</div>
-							<div class="ferry ferry-from">
+
+              <div class="ferry ferry-from">
   								<label>Carrera</label>
 							    <select required name="carrera" style="color:black!important; background-color:#fff!important;">
                     <option value="">---</option>
@@ -35,9 +39,10 @@
                     <option value="otro">Otro</option>
                   </select>
 							</div>
+
               <div class="ferry ferry-from">
                   <label>Grupo</label>
-                  <select  required style="color:black!important;  background-color: #fff!important;" name="grupo">
+                  <select required style="color:black!important;  background-color: #fff!important;" name="grupo">
                     <option value="">---</option>
                     <option value="101">101</option>
                     <option value="102">102</option>
